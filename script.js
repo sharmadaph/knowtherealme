@@ -1,34 +1,31 @@
-<!-- Slideshow container -->
-<div class="slideshow-container">
+<script language="javascript">
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="https://firstuuwilm.org/wordcms/wp-content/uploads/2018/04/girls-3273200_1920-958x677.png" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="https://cdn3.vectorstock.com/i/1000x1000/80/12/stages-of-growing-up-life-cycle-graph-vector-20768012.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
+var slideIndex = 1;
+showSlides(slideIndex);
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT2bRBdvVS11DEvHPhEjoQ1kN54FRBnYaTxeeEZ9gvxET2hv8oE&usqp=CAU" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
