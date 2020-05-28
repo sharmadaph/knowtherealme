@@ -2,17 +2,32 @@
 <html>
   <head>
      <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link id="favicon" rel="shortcut icon" type="image/png" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKUlEQVQ4jY2TT0hUURSHv3vfe/NmxsnRGXU0Ri0XGbpoDEQtKjAICiJwLaUlQcs2LYOWQdEukCClWrRoUYugaFWQGgkpoVgEiamYLqxGR2fen9NCZ3AmIc/mcri/33fO4dyrKAnbtom395Y7jtcj0AFEFCxqrV421YTejb64X6RXOxPf90l0Xb4ocA+IlcKBEUOrSz9Hh77tCqjq6LsB3N7FuDOWFZxa+TA8UwSo7uzvFpE3gP4PAGA6HLTa5t4+yGmApu5riMjdPZoBWjayzgB5QzqzeRRI5W/jdeVF6ljtvn8IIlwBMLcSOWlaBtrUaAWWbWIGDHzPBxTBcAAzYKDFJecUpk4lTwxE8i3XB8sCNDbXEKkI4Xs+dY0xQhGb/QdjiC8kGipJHfZ2NqFzrpc0txNffOFAdIUa1snmIB4V1soUQfsP8ajwZdagIeHR0eoQiwp3HoXY2FR+HvA9t+mQ/uUwNmkB0N7q8HHK4sghl99pYfKrSXOjx9PXNiurGsAN2ca8Aqju7G8RkamGWo9kwifrgOMoImFhLbN1ZnPguIrKcsFxYXzKGlt8P9xlAgze7J2+euvxyNyScWxuydjTHpVSg4U19pw7jVLqOuDuyQ3jAct4AlAol5mfWAgnUwvAeUqeeEnMaqXOLo08XC0CAGQWJj6V1beNA8eBil3Mzw1DX1geHVosjFKqsG2bqvZeM+d6Z0S2v7Pih6HVq/XPz2bS6XSR/i/mgL6YE3Q+UQAAAABJRU5ErkJggg==">
-    <script src="script.js"></script>
-
+    <link href="style.css" rel="stylesheet"  type="text/css" />
   </head>
 <body>
-<h1>Welcome</h1>
-<div class="MySlides">
- <img src="https://cdn3.vectorstock.com/i/1000x1000/80/12/stages-of-growing-up-life-cycle-graph-vector-20768012.jpg" style="width:100%"
+
+<h1>From Books To Poetry</h1>
+<div class="mainSlide">
+  <div class="mySlides">
+ <img src="https://s26162.pcdn.co/wp-content/uploads/2019/07/used-books-store-2.jpg" alt= "Growing Good"  class="center">
+  </div> 
+  <div class="mySlides">
+ <img src="https://ww2.kqed.org/app/uploads/sites/43/2019/12/many-old-books-stacked-in-texture-picture-id1074590734-800x450.jpg" alt= "Growing Pains" class="center">
   </div>
-</div> 
+ <div class="mySlides">
+ <img src="https://www.incimages.com/uploaded_files/image/970x450/getty_496612468_2000138820009280460_336567.jpg" alt= "Growing Up"class="center" > 
+</div>
+<!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+      <script src="script.js"></script>
+
 </body>
 </html>
