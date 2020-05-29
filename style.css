@@ -102,3 +102,20 @@ h1{
   font-family: "Courier New", Courier, monospace;
   text-align:center;
 }
+
+
+.writing {
+ margin: 150px 22px 15px 20px;
+  font-family: "Courier New", Courier, monospace;
+
+}
+.PoetryPic {
+  float: right;
+  border: lightblue;
+  border-style: solid; 
+  border-width: 10px;
+  margin: 150px 22px 15px 20px;
+}
+h3{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
