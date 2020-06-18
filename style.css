@@ -116,12 +116,18 @@ h1{
   margin: 150px 22px 15px 20px;
 }
 h3{
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h5{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 /* Three columns side by side */
 .column {
   float: left;
-  width: 33.3%;
+  width: 50%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -141,7 +147,7 @@ h3{
 
 /* Some left and right padding inside the container */
 .container {
-  padding: 0 16px;
+  padding: 16px;
 }
 
 /* Clear floats */
@@ -155,7 +161,7 @@ h3{
   color: grey;
 }
 
-.button {
+.button { 
   border: none;
   outline: 0;
   display: inline-block;
