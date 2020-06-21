@@ -195,3 +195,11 @@ display: table;
   float:left;
   padding:6px;
 }
+
+.button1 {
+  background-color: lightsteelblue;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: black;
+}
