@@ -196,10 +196,9 @@ display: table;
   padding:6px;
 }
 
-.button1 {
-  background-color: lightsteelblue;
-  color: white;
+.back {
+  color: lightsteelblue;
   padding: 16px;
-  font-size: 16px;
+  font-size: 36px;
   border: black;
 }
