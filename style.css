@@ -182,19 +182,7 @@ margin: 150px 22px 15px 20px;
 display: table;
 }
 
-.rightCell{
-  width:45%;
-  height:25%;
-  float:right;
-  padding:6px;
-}
 
-.leftCell{
-  width:45%;
-  height:25%;
-  float:left;
-  padding:6px;
-}
 
 .back {
   color: lightsteelblue;
