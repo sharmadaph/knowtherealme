@@ -196,7 +196,7 @@ display: table;
   padding:6px;
 }
 
-.button {
+.smallbutton {
   position: relative;
   display: inline-block;
 }
