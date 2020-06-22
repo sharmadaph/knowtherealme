@@ -183,14 +183,14 @@ display: table;
 }
 
 .rightCell{
-  width:30%;
+  width:45%;
   height:25%;
   float:right;
   padding:6px;
 }
 
 .leftCell{
-  width:60%;
+  width:45%;
   height:25%;
   float:left;
   padding:6px;
