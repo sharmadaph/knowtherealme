@@ -204,4 +204,11 @@ display: table;
   text-indent: 50px;
 }
 
+.yes {
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+width: 100px;
+height: 40px;
+background-color: ivory ;
+}
 
